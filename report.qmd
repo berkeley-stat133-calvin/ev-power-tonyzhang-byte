@@ -34,9 +34,9 @@ clean_names <- function(df) {
   df
 }
 
-renew_2023 <- read_csv("renew-use-2023.csv") |> clean_names()
-total_2023 <- read_csv("total-use-2023.csv") |> clean_names()
-ev_raw     <- read_csv("ev-registrations-by-state-2023.csv") |> clean_names()
+renew_2023 <- read_csv("data/renew-use-2023.csv") |> clean_names()
+total_2023 <- read_csv("data/total-use-2023.csv") |> clean_names()
+ev_raw     <- read_csv("data/ev-registrations-by-state-2023.csv") |> clean_names()
 
 
 
